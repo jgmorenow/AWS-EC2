@@ -71,7 +71,34 @@
 <img src="https://i.imgur.com/DsFzgOc.png" height="25%" width="75%" />
 </p>
 
+5. <b>Plan the Terraform Deployment</b>
+<b>Next, you’ll run a plan command to see the changes Terraform will make to your infrastructure. This gives you a preview without actually deploying:</b>
+
+<p align="center">
+<img src="https://i.imgur.com/uraiYLw.png" height="25%" width="75%" />
+</p>
+
+6. <b>Apply the Terraform Configuration</b>
+<b>To create the EC2 instance, run the apply command. Terraform will prompt you for confirmation before creating the resources:</b>
+
+<p align="center">
+<img src=" command terraform apply" height="25%" width="75%" />
+</p>
+
+<b>Type yes to confirm the changes.</b>
+
+7. <b>Access Your EC2 Instance</b>
+<b>Once the EC2 instance is created, you can access it via SSH using the public IP address that Terraform outputs:</b>
+
+<p align="center">
+<img src="https://i.imgur.com/8BNfegC.png" height="25%" width="75%" />
+</p>
 
 
+<b>What I Learned:</b>
+
+- <b>Provisioning cloud resources using Terraform.</b>
+- <b>Structuring IaC projects with multiple .tf files.</b>
+- <b>Using outputs to track important details like IP addresses and resource IDs.</b>
 
 
