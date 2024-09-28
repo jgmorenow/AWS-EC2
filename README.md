@@ -17,7 +17,7 @@
 1. <b>Configure AWS CLI to authenticate with your AWS account:</b>
 
 <p align="center">
-<img src=" AWS CONFIGURE" height="25%" width="75%" />
+<img src="https://i.imgur.com/WUijkyx.png" height="25%" width="75%" />
 </p>
 
 <b>I’ll be prompted to enter my Access Key ID, Secret Access Key, default region, and output format.</b>
@@ -26,7 +26,7 @@
 <b>Create a directory to store your Terraform files. Open your terminal and run:<b>
 
 <p align="center">
-<img src=" mkdir terraform-ec2-project cd terraform-ec2-project" height="25%" width="75%" />
+<img src="https://i.imgur.com/UWpeocH.png" height="25%" width="75%" />
 </p>
 
 3. <b>Create Terraform Configuration Files</b>
@@ -36,8 +36,7 @@
   <b>Create a file named provider.tf:</b>
 
 <p align="center">
-<img src="  provider "aws" {region = "us-west-2"  # Choose your preferred region
-}" height="25%" width="75%" />
+<img src="https://imgur.com/iQxxlQv.png" height="25%" width="75%" />
 </p>
 
 - <b>EC2 Instance Configuration:</b>
@@ -45,7 +44,7 @@
   <b>Create a file named main.tf:</b>
 
 <p align="center">
-<img src="https://i.imgur.com/XoltuuF.png" height="25%" width="75%" />
+<img src="https://i.imgur.com/ITe77rA.png" height="25%" width="75%" />
 </p>
 
 - <b>Security Group Configuration:</b>
@@ -53,7 +52,7 @@
   <b>Create a file named security_group.tf:</b>
 
 <p align="center">
-<img src="https://i.imgur.com/kbv9x71.png" height="25%" width="75%" />
+<img src="https://i.imgur.com/dHIUfeG.png" height="25%" width="75%" />
 </p>
 
 - <b>Outputs (Optional):</b>
@@ -61,21 +60,21 @@
   <b>Create a file named outputs.tf to show some useful information after provisioning:</b>
 
 <p align="center">
-<img src="https://i.imgur.com/tWUZWKz.png" height="25%" width="75%" />
+<img src="https://i.imgur.com/a3uJoMH.png" height="25%" width="75%" />
 </p>
 
 4. <b>Initialize Terraform</b>
 <b>In the project directory, I'll run the following command to initialize Terraform. This command downloads the AWS provider plugin and sets up my environment:</b>
 
 <p align="center">
-<img src="https://i.imgur.com/DsFzgOc.png" height="25%" width="75%" />
+<img src="https://i.imgur.com/IEqaVOb.png" height="25%" width="75%" />
 </p>
 
 5. <b>Plan the Terraform Deployment</b>
 <b>Next, you’ll run a plan command to see the changes Terraform will make to your infrastructure. This gives you a preview without actually deploying:</b>
 
 <p align="center">
-<img src="https://i.imgur.com/uraiYLw.png" height="25%" width="75%" />
+<img src="https://i.imgur.com/YGlG0pp.png" height="25%" width="75%" />
 </p>
 
 6. <b>Apply the Terraform Configuration</b>
