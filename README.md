@@ -81,7 +81,7 @@
 <b>To create the EC2 instance, run the apply command. Terraform will prompt you for confirmation before creating the resources:</b>
 
 <p align="center">
-<img src=" command terraform apply" height="25%" width="75%" />
+<img src="https://i.imgur.com/OyCyhn0.png" height="25%" width="75%" />
 </p>
 
 <b>Type yes to confirm the changes.</b>
@@ -90,7 +90,7 @@
 <b>Once the EC2 instance is created, you can access it via SSH using the public IP address that Terraform outputs:</b>
 
 <p align="center">
-<img src="https://i.imgur.com/8BNfegC.png" height="25%" width="75%" />
+<img src="https://imgur.com/JH6tvRB" height="25%" width="75%" />
 </p>
 
 
