@@ -90,7 +90,7 @@
 <b>Once the EC2 instance is created, you can access it via SSH using the public IP address that Terraform outputs:</b>
 
 <p align="center">
-<img src="https://imgur.com/JH6tvRB" height="25%" width="75%" />
+<img src="https://imgur.com/JH6tvRB.png" height="25%" width="75%" />
 </p>
 
 
