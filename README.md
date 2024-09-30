@@ -30,6 +30,7 @@
 </p>
 
 3. <b>Create Terraform Configuration Files</b>
+
 <b>I'll define my infrastructure in (.tf) files. Let’s start with the basic setup.</b>
 - <b>Provider Configuration:</b>
 
@@ -64,6 +65,7 @@
 </p>
 
 4. <b>Initialize Terraform</b>
+
 <b>In the project directory, I'll run the following command to initialize Terraform. This command downloads the AWS provider plugin and sets up my environment:</b>
 
 <p align="center">
@@ -71,6 +73,7 @@
 </p>
 
 5. <b>Plan the Terraform Deployment</b>
+
 <b>Next, you’ll run a plan command to see the changes Terraform will make to your infrastructure. This gives you a preview without actually deploying:</b>
 
 <p align="center">
@@ -78,6 +81,7 @@
 </p>
 
 6. <b>Apply the Terraform Configuration</b>
+
 <b>To create the EC2 instance, run the apply command. Terraform will prompt you for confirmation before creating the resources:</b>
 
 <p align="center">
@@ -87,6 +91,7 @@
 <b>Type yes to confirm the changes.</b>
 
 7. <b>Access Your EC2 Instance</b>
+
 <b>Once the EC2 instance is created, you can access it via SSH using the public IP address that Terraform outputs:</b>
 
 <p align="center">
